@@ -1,0 +1,29 @@
+# Arquivos do ambiente virtual
+.venv/
+venv/
+env/
+
+# Arquivos Python compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
+
+# Arquivos do sistema
+.DS_Store
+
+# Arquivos de logs
+*.log
+
+# Arquivos do Docker (se não quiser subir dados persistentes)
+postgres_data/
+
+# Arquivo .env com variáveis sensíveis
+.env
+
+# Arquivos do banco local SQLite (se usar)
+db.sqlite3
